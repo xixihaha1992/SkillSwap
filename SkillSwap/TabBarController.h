@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-#import <Foundation/Foundation.h>
 
 @interface TabBarController : UITabBarController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 

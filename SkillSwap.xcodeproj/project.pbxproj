@@ -34,6 +34,7 @@
 		5FCA00011ACCED3C001951E0 /* TwitterDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAFFF01ACCED3C001951E0 /* TwitterDown.png */; };
 		5FCA00061ACCED4F001951E0 /* MyLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA00031ACCED4F001951E0 /* MyLogInViewController.m */; };
 		5FCA00071ACCED4F001951E0 /* MySignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA00051ACCED4F001951E0 /* MySignUpViewController.m */; };
+		5FCA000A1ACCF36E001951E0 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA00091ACCF36E001951E0 /* TabBarController.m */; };
 		5FCAFFD41ACCE2B0001951E0 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAFFD31ACCE2B0001951E0 /* EventViewController.m */; };
 		5FCAFFD61ACCEAD3001951E0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCAFFD51ACCEAD3001951E0 /* Social.framework */; };
 		5FCAFFD81ACCEAE1001951E0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCAFFD71ACCEAE1001951E0 /* Accounts.framework */; };
@@ -97,6 +98,8 @@
 		5FCA00031ACCED4F001951E0 /* MyLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogInViewController.m; sourceTree = "<group>"; };
 		5FCA00041ACCED4F001951E0 /* MySignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySignUpViewController.h; sourceTree = "<group>"; };
 		5FCA00051ACCED4F001951E0 /* MySignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySignUpViewController.m; sourceTree = "<group>"; };
+		5FCA00081ACCF36E001951E0 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		5FCA00091ACCF36E001951E0 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		5FCAFFD21ACCE2B0001951E0 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		5FCAFFD31ACCE2B0001951E0 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		5FCAFFD51ACCEAD3001951E0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -181,6 +184,8 @@
 			children = (
 				5F9EEAD51ACA48C400D6D23E /* AppDelegate.h */,
 				5F9EEAD61ACA48C400D6D23E /* AppDelegate.m */,
+				5FCA00081ACCF36E001951E0 /* TabBarController.h */,
+				5FCA00091ACCF36E001951E0 /* TabBarController.m */,
 				5FCAFFD21ACCE2B0001951E0 /* EventViewController.h */,
 				5FCAFFD31ACCE2B0001951E0 /* EventViewController.m */,
 				5FCA00021ACCED4F001951E0 /* MyLogInViewController.h */,
@@ -394,6 +399,7 @@
 				5FCA00061ACCED4F001951E0 /* MyLogInViewController.m in Sources */,
 				5FCAFFD41ACCE2B0001951E0 /* EventViewController.m in Sources */,
 				5F9EEAD71ACA48C400D6D23E /* AppDelegate.m in Sources */,
+				5FCA000A1ACCF36E001951E0 /* TabBarController.m in Sources */,
 				5FCA00071ACCED4F001951E0 /* MySignUpViewController.m in Sources */,
 				5F9EEAD41ACA48C400D6D23E /* main.m in Sources */,
 			);
