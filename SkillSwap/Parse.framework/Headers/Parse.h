@@ -31,6 +31,7 @@
 #import <Parse/PFPurchase.h>
 #import <Parse/PFPush.h>
 #import <Parse/PFTwitterUtils.h>
+#import <Parse/PFLogInViewController.h>
 
 #else
 
